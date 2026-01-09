@@ -127,7 +127,7 @@ To get started follow these steps:
 ``` shell
 mkdir sparrow
 cd sparrow
-repo init -u https://github.com/AmbiML/sparrow-manifest -m sparrow-manifest.xml
+repo init -u https://github.com/Liviousss/sparrow-updated-manifest -m sparrow-manifest.xml
 repo sync -j$(nproc)
 export PLATFORM=rpi3
 source build/setup.sh
