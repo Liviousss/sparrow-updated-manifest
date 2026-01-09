@@ -70,7 +70,8 @@
   <project name="seL4_tools" revision="fbfc6397803b54a809f1995e844c04877fdde006" 
            remote="seL4-kernel" path="cantrip/tools/seL4" />
   <!-- Download Sparrow's sel4runtime -->
-  <project name="sparrow-sel4runtime" revision="sparrow" remote="sparrow" path="cantrip/projects/sel4runtime" />
+  <project name="sel4runtime" revision="86489cf6efab9f314964e79468c036e9035394c7" 
+           remote="seL4-kernel" path="cantrip/projects/sel4runtime" />
   <!-- Download Sparrow's sel4test -->
   <project name="sparrow-sel4test" revision="sparrow" remote="sparrow" path="cantrip/projects/sel4test" />
   <!-- Download Sparrow's util_libs -->
