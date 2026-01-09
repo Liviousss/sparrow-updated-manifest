@@ -7,7 +7,8 @@
     repos directly instead of using github GoB mirror
 -->
 <manifest>
-  <remote name="sparrow" fetch="https://github.com/ambiml" />
+  <remote name="seL4-kernel" fetch="https://github.com/seL4" />
+  <remote name="sparrow"     fetch="https://github.com/ambiml" />
   <remote name="lwip"        fetch="https://git.savannah.gnu.org/git/" />
   <remote name="nicta"       fetch="https://github.com/NICTA" />
   <remote name="opensbi"     fetch="https://github.com/riscv" />
@@ -52,7 +53,8 @@
            revision="a6fbc13c792ef518e5bcf1da69c8d27b6cd19814" upstream="master" dest-branch="master"/>
 
   <!-- Download Sparrow camkes-tool (mods + templates) -->
-  <project name="sparrow-camkes-tool" revision="sparrow" remote="sparrow" path="cantrip/projects/camkes-tool" />
+  <project name="camkes-tool" revision="0863c1447ffa914d540e79d2ad696edd4c39fcf6" 
+           remote="seL4-kernel" path="cantrip/projects/camkes-tool" />
   <!-- Download Sparrow's kernel (patches + drivers) -->
   <project name="sparrow-kernel" revision="sparrow" remote="sparrow"  path="cantrip/kernel" />
   <!-- Download CantripOS CAmkES components -->
