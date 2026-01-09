@@ -56,7 +56,8 @@
   <project name="camkes-tool" revision="0863c1447ffa914d540e79d2ad696edd4c39fcf6" 
            remote="seL4-kernel" path="cantrip/projects/camkes-tool" />
   <!-- Download Sparrow's kernel (patches + drivers) -->
-  <project name="sparrow-kernel" revision="sparrow" remote="sparrow"  path="cantrip/kernel" />
+  <project name="seL4" revision="cd6d3b8c25d49be2b100b0608cf0613483a6fffa" 
+           remote="seL4-kernel"  path="cantrip/kernel" />
   <!-- Download CantripOS CAmkES components -->
   <project name="sparrow-cantrip-full" revision="main" remote="sparrow" path="cantrip/projects/cantrip" />
   <!-- Download Sparrow's capdl -->
