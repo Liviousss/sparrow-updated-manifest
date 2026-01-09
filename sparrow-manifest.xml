@@ -53,7 +53,7 @@
            revision="a6fbc13c792ef518e5bcf1da69c8d27b6cd19814" upstream="master" dest-branch="master"/>
 
   <!-- Download Sparrow camkes-tool (mods + templates) -->
-  <project name="camkes-tool" revision="0863c1447ffa914d540e79d2ad696edd4c39fcf6" 
+  <project name="camkes-tool" revision="9a1313f4ea24a11fe2b61b681d84769985cc1963" 
            remote="seL4-kernel" path="cantrip/projects/camkes-tool" />
   <!-- Download Sparrow's kernel (patches + drivers) -->
   <project name="seL4" revision="cd6d3b8c25d49be2b100b0608cf0613483a6fffa" 
