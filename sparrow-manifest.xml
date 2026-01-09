@@ -73,9 +73,11 @@
   <project name="sel4runtime" revision="86489cf6efab9f314964e79468c036e9035394c7" 
            remote="seL4-kernel" path="cantrip/projects/sel4runtime" />
   <!-- Download Sparrow's sel4test -->
-  <project name="sparrow-sel4test" revision="sparrow" remote="sparrow" path="cantrip/projects/sel4test" />
+  <project name="sel4test" revision="0bbb0c6be4e98df98a04b045f98c5a9d272295b2" 
+           remote="sel4test" path="cantrip/projects/sel4test" />
   <!-- Download Sparrow's util_libs -->
-  <project name="sparrow-util_libs" revision="sparrow" remote="sparrow" path="cantrip/projects/util_libs" />
+  <project name="util_libs" revision="07a7e15b845b08edf91e6d65919aaeef1ae4d5eb" 
+           remote="seL4-kernel" path="cantrip/projects/util_libs" />
 
   <!-- Download nanopb for sel4test -->
   <project name="nanopb" remote="nanopb" path="cantrip/tools/nanopb" />
