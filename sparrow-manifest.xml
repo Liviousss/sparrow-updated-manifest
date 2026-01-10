@@ -62,7 +62,8 @@
   <!-- Download Sparrow's capdl -->
   <project name="sparrow-capdl" revision="sparrow" remote="sparrow"  path="cantrip/projects/capdl" />
   <!-- Download Sparrow's seL4_libs -->
-  <project name="sparrow-seL4_libs" revision="sparrow" remote="sparrow" path="cantrip/projects/seL4_libs" />
+  <project name="seL4_libs" revision="2580739bde15ec0dac1bef43a4e313e3752b7692" 
+           remote="seL4-kernel" path="cantrip/projects/seL4_libs" />
   <!-- Download Sparrow's seL4_tools -->
   <project name="sparrow-seL4_tools" revision="sparrow" remote="sparrow" path="cantrip/tools/seL4" />
   <!-- Download Sparrow's sel4runtime -->
