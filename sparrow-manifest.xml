@@ -60,8 +60,7 @@
   <!-- Download CantripOS CAmkES components -->
   <project name="sparrow-cantrip-full" revision="main" remote="sparrow" path="cantrip/projects/cantrip" />
   <!-- Download Sparrow's capdl -->
-  <project name="capdl" revision="ae2b4e64dc50614a929b94e48ddc36c5bd740522" 
-           remote="seL4-kernel"  path="cantrip/projects/capdl" />
+  <project name="sparrow-capdl" revision="sparrow" remote="sparrow"  path="cantrip/projects/capdl" />
   <!-- Download Sparrow's seL4_libs -->
   <project name="seL4_libs" revision="2580739bde15ec0dac1bef43a4e313e3752b7692" 
            remote="seL4-kernel" path="cantrip/projects/seL4_libs" />
